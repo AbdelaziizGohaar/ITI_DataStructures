@@ -19,10 +19,48 @@ class LinkedList
         void add(int data)
         {
            if (head == NULL)
-           {
-
+           {// add Node First
+             Node *newNode = new Node(data);
+             head = newNode ;
+             tail = newNode ;
+           }else
+           { // add Node last
+             Node *newNode = new Node(data);
+             tail->next = newNode ;
+             newNode->prev = tail ;
+             taile = newNode ;
            }
-        }
+        }/// end of Function ADD
+
+
+        void display()
+        {
+          Node * current = head;
+          if(current == NULL)
+          {
+          cout<<"Empty LinkedList"<<endl;
+            return ;
+          }
+          if(current !=NULL)
+          {
+            cout<<current->data <<endl;
+            current = current->next ;
+          }
+
+
+
+        }/// end method Display
+
+
+
+
+
+
+
+
+
+
+
 
 //    protected:
 

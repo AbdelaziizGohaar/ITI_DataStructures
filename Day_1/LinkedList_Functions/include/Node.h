@@ -15,6 +15,7 @@ class Node
            next = NULL ;
            prev = NULL;
          }
+
         ~Node() {}
 
     protected:
