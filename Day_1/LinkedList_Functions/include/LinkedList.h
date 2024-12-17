@@ -109,7 +109,17 @@ void InsertBefore(int data , int beforeData)
   Node *a = searchNode->prev ;
 /// old node pointing to my new Node
   searchNode->prev = newNode ;
-  a->next = newNode ;
+
+  if (a != NULL)
+  {
+    a->next = newNode; // If 'a' exists, update its 'next'
+  } else
+  {
+    head = newNode; // New node becomes the head
+  }
+
+ // a->next = newNode ;
+
   /// my node pointing
   newNode->prev = a;
   newNode->next = searchNode;
