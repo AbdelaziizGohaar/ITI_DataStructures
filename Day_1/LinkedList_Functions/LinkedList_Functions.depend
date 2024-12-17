@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1734386486 source:/home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_1/LinkedList_Functions/main.cpp
+	<iostream>
+	"LinkedList.h"
+
+1734392897 /home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_1/LinkedList_Functions/include/LinkedList.h
+	<iostream>
+	"Node.h"
+
+1734387443 /home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_1/LinkedList_Functions/include/Node.h
+
