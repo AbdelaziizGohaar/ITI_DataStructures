@@ -48,7 +48,7 @@ class LinkedList
           cout<<"Empty LinkedList"<<endl;
             return ;
           }
-          if(current !=NULL)
+          while(current !=NULL)
           {
             cout<<current->data <<endl;
             current = current->next ;
@@ -56,19 +56,19 @@ class LinkedList
         }/// end method Display
 
 
-Node* Search(int searchData) /// this is helper Function :) 
-{ 
-    Node* current = head; 
-   
+Node* Search(int searchData) /// this is helper Function :)
+{
+    Node* current = head;
+
     while (current != NULL)
-     { 
-        if (current->data == searchData) 
-        { 
-            return current; 
+     {
+        if (current->data == searchData)
+        {
+            return current;
         }
-        current = current->next; 
+        current = current->next;
     }
-  return NULL; 
+  return NULL;
 }
 
 
@@ -87,7 +87,7 @@ void InsertAfter(int data, int afterData)
   b->prev = newNode ;
   /// my node pointing
   newNode->next = b;
-  newNode->prev = searchNode;    
+  newNode->prev = searchNode;
 
  }else
  {
@@ -112,12 +112,12 @@ void InsertBefore(int data , int beforeData)
   a->next = newNode ;
   /// my node pointing
   newNode->prev = a;
-  newNode->next = searchNode;    
+  newNode->next = searchNode;
  }else
  {
   cout << "No Node with Such Data" << endl;
  }
- 
+
 
 }/// end of method insertBefore
 
@@ -130,16 +130,16 @@ int GetCount()
 int GetDataByIndex(int index)
 {
  int currentIndex = 1 ;
- Node* current = head; 
-   
+ Node* current = head;
+
  while (current != NULL)
-  { 
+  {
     if(currentIndex == index)
     {
       return current->data ;
     }else
     {
-        currentIndex ++;             
+        currentIndex ++;
     }
   }
 

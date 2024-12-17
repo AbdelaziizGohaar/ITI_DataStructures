@@ -10,6 +10,11 @@ LinkedList azizLl ;
 azizLl.add(6);
 azizLl.add(7);
 azizLl.add(9);
+
+azizLl.InsertAfter(100,7);
+//azizLl.InsertBefore(900,6);
+cout<<"element count is "<<azizLl.GetCount()<<endl;
+cout<<"element in linkedlist is : "<<endl;
 azizLl.display();
     return 0;
 }
