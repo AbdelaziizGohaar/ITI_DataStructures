@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1734613700 source:/home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_2/StackLinkedList/main.cpp
+	<cstddef>
+	<iostream>
+	"include/StackLinkedList.h"
+
+1734613776 /home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_2/StackLinkedList/include/StackLinkedList.h
+	<cstddef>
+	<iostream>
+	"StackNode.h"
+
+1734612040 /home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_2/StackLinkedList/include/StackNode.h
+
