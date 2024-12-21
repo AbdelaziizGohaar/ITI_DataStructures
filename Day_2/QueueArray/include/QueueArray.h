@@ -81,6 +81,8 @@ int dequeue()
  {
    throw  "Queue array is empty";
  }
+    data = items[front];
+
  if (rear == front)
  {
    data = items[front] ;
@@ -147,6 +149,33 @@ void display_2()
 
     std::cout << "==================== Display End ===================" << std::endl;
 }
+
+int getFront()
+{
+  if(front == -1)
+  {
+   throw "No Front data its empty" ;
+  }else
+  {
+    return items[front];
+  }
+}
+/////////////////////////////////// end GetFront 
+
+
+
+
+int getRear()
+{
+  if(rear == -1)
+  {
+    throw " no rear data array is empty";
+  }else
+  {
+    return items[rear];
+  }
+}
+/////////////////////////////////// end GetFront 
 
 
 };

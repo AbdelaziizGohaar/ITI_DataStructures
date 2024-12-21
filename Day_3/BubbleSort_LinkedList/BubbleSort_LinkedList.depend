@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1734735696 source:/home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_3/BubbleSort_LinkedList/main.cpp
+	"include/LinkedList.h"
+	"include/Node.h"
+	<iostream>
+
+1734736615 /home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_3/BubbleSort_LinkedList/include/LinkedList.h
+	<iostream>
+	"Node.h"
+
+1734715210 /home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_3/BubbleSort_LinkedList/include/Node.h
+

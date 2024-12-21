@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1734620104 source:/home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_2/QueueArray/main.cpp
+1734625113 source:/home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_2/QueueArray/main.cpp
 	"include/QueueArray.h"
 	<iostream>
 
-1734620714 /home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_2/QueueArray/include/QueueArray.h
+1734626237 /home/gohaar/Desktop/DataStructure/DtaStructures_Labs/Day_2/QueueArray/include/QueueArray.h
 	<iostream>
 	<cstddef>
 

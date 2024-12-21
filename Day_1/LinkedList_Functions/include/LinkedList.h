@@ -128,7 +128,6 @@ void InsertBefore(int data , int beforeData)
   cout << "No Node with Such Data" << endl;
  }
 
-
 }/// end of method insertBefore
 
 
